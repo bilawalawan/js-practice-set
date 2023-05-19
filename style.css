@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.password{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.inner{
+    border: 1px solid black;
+    width: 32rem;
+    background-color: rgb(66, 240, 110);
+    height: 190px;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.inner input{
+    padding: 20px 80px;
+    border-radius: 5px;
+    margin-top: 9px;
+}
+
+.btn1{
+    padding: 10px 50px;
+    margin-top: 9px;
+    background-color: tomato;
+    border-radius: 8px;
+    /* border: none; */
+}
